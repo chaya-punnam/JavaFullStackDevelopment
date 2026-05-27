@@ -1,0 +1,19 @@
+TOMCAT START & STOP GUIDE
+
+START TOMCAT:
+-----------------------
+1. Open Tomcat folder
+2. Open bin folder
+3. Run startup.bat
+
+VERIFY:
+-----------------------
+Open browser:
+http://localhost:9090
+
+Tomcat welcome page should appear.
+
+STOP TOMCAT:
+-----------------------
+1. Open Tomcat/bin
+2. Run shutdown.bat

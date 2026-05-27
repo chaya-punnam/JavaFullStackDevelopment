@@ -1,0 +1,58 @@
+DAY 10 - SERVLETS & JSP
+
+1. Client-Server Architecture
+--------------------------------
+Client sends request.
+Server processes request and sends response.
+
+Flow:
+Browser → Tomcat Server → Servlet → Response
+
+2. HTTP Protocol
+--------------------------------
+HTTP is used for communication between browser and server.
+
+Methods:
+GET  → Retrieve data
+POST → Send data
+
+3. Difference Between GET and POST
+--------------------------------
+GET:
+- Data visible in URL
+- Less secure
+- Limited data
+
+POST:
+- Data hidden
+- More secure
+- Large data possible
+
+4. Servlet
+--------------------------------
+Servlet is a Java program that handles HTTP requests.
+
+Servlet acts as:
+Browser ↔ Java ↔ Database
+
+5. Servlet Lifecycle
+--------------------------------
+init()    → initialize servlet
+service() → handle requests
+destroy() → cleanup
+
+6. JSP
+--------------------------------
+JSP means Java Server Pages.
+Used for frontend/UI development.
+
+7. MVC Architecture
+--------------------------------
+Model      → Database logic
+View       → JSP
+Controller → Servlet
+
+8. Tomcat Server
+--------------------------------
+Tomcat is a web server and servlet container.
+Used to run Java web applications.
