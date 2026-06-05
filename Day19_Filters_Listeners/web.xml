@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app>
+
+    <!-- Filter -->
+
+    <filter>
+
+        <filter-name>
+            LoginFilter
+        </filter-name>
+
+        <filter-class>
+            LoginFilter
+        </filter-class>
+
+    </filter>
+
+    <filter-mapping>
+
+        <filter-name>
+            LoginFilter
+        </filter-name>
+
+        <url-pattern>
+            /dashboard
+        </url-pattern>
+
+    </filter-mapping>
+
+    <!-- Listener -->
+
+    <listener>
+
+        <listener-class>
+            MyListener
+        </listener-class>
+
+    </listener>
+
+    <!-- Servlet -->
+
+    <servlet>
+
+        <servlet-name>
+            DashboardServlet
+        </servlet-name>
+
+        <servlet-class>
+            DashboardServlet
+        </servlet-class>
+
+    </servlet>
+
+    <servlet-mapping>
+
+        <servlet-name>
+            DashboardServlet
+        </servlet-name>
+
+        <url-pattern>
+            /dashboard
+        </url-pattern>
+
+    </servlet-mapping>
+
+</web-app>
