@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app>
+
+    <servlet>
+
+        <servlet-name>
+            AddEmployeeServlet
+        </servlet-name>
+
+        <servlet-class>
+            Day20_EmployeeManagementSystem.AddEmployeeServlet
+        </servlet-class>
+
+    </servlet>
+
+    <servlet-mapping>
+
+        <servlet-name>
+            AddEmployeeServlet
+        </servlet-name>
+
+        <url-pattern>
+            /addEmployee
+        </url-pattern>
+
+    </servlet-mapping>
+
+    <servlet>
+
+        <servlet-name>
+            ViewEmployeeServlet
+        </servlet-name>
+
+        <servlet-class>
+            Day20_EmployeeManagementSystem.ViewEmployeeServlet
+        </servlet-class>
+
+    </servlet>
+
+    <servlet-mapping>
+
+        <servlet-name>
+            ViewEmployeeServlet
+        </servlet-name>
+
+        <url-pattern>
+            /viewEmployees
+        </url-pattern>
+
+    </servlet-mapping>
+
+</web-app>
